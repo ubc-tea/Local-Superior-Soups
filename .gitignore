@@ -1,0 +1,7 @@
+*__pycache__*
+tmp/
+results/
+system/models/
+fedsoup_graph/
+figure/
+.vscode/

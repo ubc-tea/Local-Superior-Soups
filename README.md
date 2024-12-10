@@ -1,4 +1,3 @@
-
 # Local Superior Soups
 The official Pytorch implementation of paper "[Local Superior Soups: A Catalyst for Model Merging in Cross-Silo Federated Learning](https://arxiv.org/abs/2410.23660)" accepted to NeurIPS 2024.
 
@@ -44,6 +43,8 @@ Federated Learning (FL) enables collaborative model training using decentralized
 ### Inference
 1. Compute the final model using averaging:
    - $f \gets \text{Averaging}(M)$.
+
+Key implementation see [clientlocalsuperiorsoups.py](./system/flcore/clients/clientlocalsuperiorsoups.py)
 
 ## Dataset and Environment Preparation
 

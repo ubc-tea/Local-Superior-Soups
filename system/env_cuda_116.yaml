@@ -1,0 +1,24 @@
+name: fl_torch
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - h5py
+  - matplotlib
+  - opacus
+  - pandas
+  - pip
+  - pytorch
+  - pytorch-cuda=11.6 # CUDA version
+  - seaborn
+  - scikit-learn
+  - scipy
+  - torchaudio
+  - torchtext
+  - torchvision
+  - ujson
+  - pip:
+    - calmsize
+    - memory-profiler
