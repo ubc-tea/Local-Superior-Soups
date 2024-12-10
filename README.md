@@ -22,8 +22,6 @@ Federated Learning (FL) enables collaborative model training using decentralized
 - **$\lambda_d$**: Diversity coefficient
 - **$n$**: Number of averaged models
 
----
-
 ### Local Training Procedure
 1. **Initialization**:
    - Set $M \gets \{f_p\}$.
@@ -42,8 +40,6 @@ Federated Learning (FL) enables collaborative model training using decentralized
             $$L_{\text{reg}}(f_{p_i}) = L(f_s, D) + \lambda_a \cdot \text{dist}(f_{p_i}, f_p) - \lambda_d \cdot \text{dist}(f_{p_i}, M)$$
           3. Update the model:
             $$f_{p_i} \gets f_{p_i} - \eta \cdot \nabla_{f_{p_i}} L_{\text{reg}}(f_{p_i})$$
-
----
 
 ### Inference
 1. Compute the final model using averaging:
